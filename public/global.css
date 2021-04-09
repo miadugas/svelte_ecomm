@@ -3,7 +3,9 @@
 Fonts
 ======
 */
-@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400|Kaushan+Script&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Catamaran:300,400|Kaushan+Script&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One:300,400&family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Open+Sans&display=swap');
 /* 
 ====== 
 Variables 
@@ -12,8 +14,8 @@ Variables
 :root {
   --primaryColor: #9e3aa3;
   --primaryDarkColor: #4e1d51;
-  --primaryFont: "Catamaran", sans-serif;
-  --slantedFont: "Kaushan Script", cursive;
+  --primaryFont: "New Tegomin", serif;
+  --slantedFont: 'Open Sans', sans-serif;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBackground: rgb(250, 245, 243);
@@ -82,20 +84,22 @@ Buttons
 .btn,
 .btn-white,
 .btn-primary {
+  border-radius: 12px;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  color: var(--primaryColor);
-  border: 2px solid var(--primaryColor);
+  color: black;
+  border: 2px solid black;
   padding: 0.45rem 0.8rem;
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
   font-size: 0.8rem;
   background: transparent;
+  border-color: gray;
 }
 .btn:hover {
   background: var(--primaryColor);
-  color: var(--mainWhite);
+  color: white;
 }
 .btn-white {
   background: transparent;
@@ -104,16 +108,16 @@ Buttons
 }
 .btn-white:hover {
   background: var(--mainWhite);
-  color: var(--primaryColor);
+  color: white;
 }
 .btn-primary {
-  background: var(--primaryColor);
+  background: black;
   color: var(--mainWhite);
-  border-color: var(--primaryColor);
+  border-color: black;
 }
 .btn-primary:hover {
   background: transparent;
-  color: var(--primaryColor);
+  color: black;
 }
 .btn-block {
   width: 100%;
@@ -243,24 +247,34 @@ Hero
   max-width: var(--maxWidth);
 }
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: capitalize;
+  font-family: sans-serif;
+  margin-bottom: 1.05rem;
+  letter-spacing: 0.1px;
+  color: #ececec;
+  text-shadow: 3px 3px black;
+
+  
 }
 .hero p {
   font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 3px;
   margin-bottom: 1.75rem;
+  letter-spacing: 0.2px;
+  color: #ececec;
+  text-shadow: 3px 3px black;
 }
 .btn-hero {
-  border-radius: 0;
+  border-radius: 12px;
   font-weight: bold;
   padding: 0.8rem 1.5rem;
-  background: var(--primaryDarkColor);
-  border-color: var(--primaryDarkColor);
+  background: black;
+  border-color: black;
 }
 .btn-hero:hover {
-  color: var(--primaryDarkColor);
+  color: black;
 }
 @media screen and (min-width: 768px) {
   .banner {
@@ -268,10 +282,10 @@ Hero
   }
 
   .hero h1 {
-    font-size: 5.3rem;
+    font-size: 3rem;
   }
   .hero p {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   .btn-hero {
     font-size: 1.2rem;
