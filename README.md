@@ -3,7 +3,7 @@
 <hr>
 
 ## Description
-
+SvelteJS single page app
 
 <hr>
 
@@ -11,7 +11,7 @@
 
 
 ## Technology Used
-
+Svelte / Svelte Router / 
 
 <hr>
 
@@ -50,11 +50,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-
-# Svelte_ecomm
-
 ## Oddities
-
-SvelteJS single page app
-
-Svelte / Svelte Router / 
