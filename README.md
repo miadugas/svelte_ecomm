@@ -20,7 +20,7 @@
 <hr>
 
 ### CodePen Resources
-#### JS Function RGB to Hex
+
 
 
 <hr>
