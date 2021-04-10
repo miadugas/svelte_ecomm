@@ -1,18 +1,23 @@
 <script>
-    export let product;
-    const { title, image, price, id } = product;
-    import { link } from "svelte-routing";
-</script>
+    export let title = "";
+    
+    import products, { featuredStore } from "../../stores/defaultProducts";
+    import Product from "./Product.svelte";
+    import Loading from "../Loading.svelte";
 
-<article class="product">
-    <div class="img-container">
-        <img src={image} alt={title} />
-    <a href={`/products/${id}`} class="btn btn-primary product-link" use:link>
-        details
-    </a>
-    </div>
-    <div class="product-footer">
-    <p class="product-title">{title}</p>
-    <p class="product-price">${price}</p>
-    </div> 
-</article> 
+    </script>
+    
+    {#if  $featuredStore.length === 0}
+        <Loading />
+    {:else}
+    <section class="section">
+        <h2 class="section-title">{title}</h2>
+        <div class="products-center">
+            {#each $featuredStore as product(product.id)}
+                <Product {product} />
+            
+            {/each}
+        </div>
+    
+    </section>
+    {/if}

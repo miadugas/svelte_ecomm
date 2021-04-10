@@ -76,7 +76,7 @@ export default [
     title: "Real Garter Snake in Globe",
     price: 90.99,
     description:
-      "This listing is for a real Garter Snake sealed in a 2.5 glass globe with a black wooden base. This preserved animal is sourced ethically & The snake remains artfully coiled inside of the globe",
+      "This listing is for a real Garter Snake sealed in a 2.5 glass globe with a black wooden base. This preserved animal is sourced ethically & The snake remains artfully coiled inside of the globe. • Photographs are representative of the specimen you will receive. Several are available - dealer's choice please. • The snake remains artfully coiled inside of the globe. • It is in fluid and moves around inside of the globe freely; you may have to shake it into position upon arrival.",
     featured: null,
     created_at: "2019-10-28T01:36:25.217Z",
     updated_at: "2019-10-28T01:36:25.217Z",
@@ -169,10 +169,10 @@ export default [
   },
   {
     id: 8,
-    title: "Kerivoula Picta bat in frame",
+    title: "Lynx Heart (Lynx Canadensis) Wet Specimen Real Preserved Organ Taxidermy Preservation Jar",
     price: 64.99,
     description:
-      "All of our specimens are ethically sourced from conservation projects and help support local communities and protect natural habitats.",
+      "My animal carcasses are purchased from professional fur trappers in Alaska, supporting local industry and salvaging parts that would otherwise be discarded. The hearts are fixed in formalin (formaldehyde) and preserved with isopropyl alcohol. Your jar will be shipped without any liquid in the container and will need refilled with alcohol after you receive it. Isopropyl alcohol (70%) is cheap and can be bought for a couple of dollars at any department store or drugstore. Your order will be shipped with a paper copy of instructions for wet specimen care. Do not store specimen in direct sunlight or it will lose its color over time.",
     featured: null,
     created_at: "2019-10-28T20:10:40.850Z",
     updated_at: "2019-10-28T20:10:40.850Z",
