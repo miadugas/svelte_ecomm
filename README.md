@@ -1,5 +1,5 @@
-# Svelte E-Commerce Store
-
+# The Black Mirror Custom E-comm Store
+## Svelte E-Commerce Store
 <hr>
 
 ## Description
