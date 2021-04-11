@@ -12,6 +12,10 @@ $: product = $products.find(item => item.id ===
 parseInt(id));
 </script>
 
+<svelte:head>
+    <title>{!product ? 'single product' : product.title}</title>
+</svelte:head>
+
 {#if !product}
     <Loading />
 {:else}
@@ -36,5 +40,5 @@ parseInt(id));
         </button>
         </article>
     </div>
-  </section>
+    </section>
 {/if}
