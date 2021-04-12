@@ -7,11 +7,12 @@
 </script>
 
 <!-- cart toggle -->
-<!-- <div class="btn-cart-container">
+<div class="btn-cart-container">
     <button class="btn-cart-toggle" on:click={() => {
-        globalStore.toggleItem('cart', true);
+        // globalStore.toggleItem('cart', true);
+        console.log('carts items')
         }}>
     <i class="fas fa-cart-plus" />
     </button>
-    <span class="btn-cart-items">{total}</span>
-</div> -->
+    <span class="btn-cart-items">10</span>
+</div>
