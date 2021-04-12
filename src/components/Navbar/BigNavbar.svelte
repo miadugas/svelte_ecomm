@@ -1,7 +1,7 @@
 <script>
     import CartButton from "../Cart/CartButton.svelte";
     import { link } from "svelte-routing";
-//    import links from "../../constants/links";
+    import links from "../../constants/links";
 //    import LoginLink from "../LoginLink.svelte";
 </script>
 
@@ -9,14 +9,13 @@
     <div class="nav-container">
         <div class="nav-center">
         <!-- nav links -->
-        <p>nav links</p>
-        <!-- <ul class="nav-links"> -->
-            <!-- {#each links as navLink}
+        <ul class="nav-links">
+            {#each links as navLink}
             <li>
                 <a href={navLink.url} use:link>{navLink.text}</a>
             </li>
-            {/each} -->
-        <!-- </ul> -->
+            {/each}
+        </ul>
         <!-- nav logo -->
         <a href="/" use:link class="nav-logo big-logo">
             <img src="/assets/images/logo.png" class="logo" alt="logo" />

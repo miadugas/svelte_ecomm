@@ -2,18 +2,17 @@
     import SmallNavBar from "./SmallNavbar.svelte";
     import BigNavbar from "./BigNavbar.svelte";
     // import globalStore from "../../stores/globalStore";
-    // let screenWidth;
+    let screenWidth;
+
     // $: if (screenWidth > 992) {
     //     globalStore.toggleItem("sidebar", false);
     // }
 </script>
 
-<SmallNavBar />
-<BigNavbar />
-<!-- <svelte:window bind:innerWidth={screenWidth} />
-
-{#if screenWidth > 992}
+<svelte:window bind:innerWidth={screenWidth} />
+    
+    {#if screenWidth > 992}
     <BigNavbar />
-{:else}
-    <SmallNavbar />
-{/if} -->
+    {:else}
+    <SmallNavBar />
+    {/if} 
