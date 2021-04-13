@@ -11,7 +11,7 @@ export default [
     title: "Real Garter Snake in Globe",
     price: 90.99,
     image: "/assets/product-images/product-4.png",
-    amount: 5
+    amount: 1
   },
   {
     id: 8,
