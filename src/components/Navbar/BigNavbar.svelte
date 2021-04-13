@@ -21,10 +21,10 @@
             <img src="/assets/images/logo.png" class="logo" alt="logo" />
         </a>
         <!-- cart toggle -->
-        <div class="nav-aside">
+            <div class="nav-aside">
             <!-- <LoginLink /> -->
             <CartButton />
+            </div>
         </div>
     </div>
-    </div>
-    </nav>
+</nav>

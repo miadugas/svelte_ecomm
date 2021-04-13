@@ -169,7 +169,7 @@ export default [
   },
   {
     id: 8,
-    title: "Lynx Heart (Lynx Canadensis) Wet Specimen Real Preserved Organ Taxidermy Preservation Jar",
+    title: "Lynx Heart (Lynx Canadensis) Wet Specimen Real Preserved Organ",
     price: 64.99,
     description:
       "My animal carcasses are purchased from professional fur trappers in Alaska, supporting local industry and salvaging parts that would otherwise be discarded. The hearts are fixed in formalin (formaldehyde) and preserved with isopropyl alcohol. Your jar will be shipped without any liquid in the container and will need refilled with alcohol after you receive it. Isopropyl alcohol (70%) is cheap and can be bought for a couple of dollars at any department store or drugstore. Your order will be shipped with a paper copy of instructions for wet specimen care. Do not store specimen in direct sunlight or it will lose its color over time.",

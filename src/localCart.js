@@ -1,23 +1,23 @@
 export default [
   {
-    id: 1,
-    title: "razor blade",
-    price: 1.99,
-    image: "/assets/product-images/product-1.png",
-    amount: 1
-  },
-  {
     id: 2,
-    title: "Gillette Razor",
-    price: 9.99,
-    image: "/assets/product-images/product-2.png",
+    title: "Autopsy Bone Saw",
+    price: 36.99,
+    image:  "/assets/product-images/product-2.png",
     amount: 1
   },
   {
-    id: 3,
-    title: "Barber Razor",
-    price: 7.99,
-    image: "/assets/product-images/product-3.png",
+    id: 4,
+    title: "Real Garter Snake in Globe",
+    price: 90.99,
+    image: "/assets/product-images/product-4.png",
+    amount: 5
+  },
+  {
+    id: 8,
+    title: "Lynx Heart (Lynx Canadensis) Wet Specimen Real Preserved Organ",
+    price: 64.99,
+    image: "/assets/product-images/product-8.png",
     amount: 1
   }
 ];

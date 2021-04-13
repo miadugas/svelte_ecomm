@@ -1,4 +1,5 @@
 <script>
+    
     import SmallNavBar from "./SmallNavbar.svelte";
     import BigNavbar from "./BigNavbar.svelte";
     import globalStore from "../../stores/globalStore";

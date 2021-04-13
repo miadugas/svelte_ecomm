@@ -12,14 +12,14 @@
     on:click={() => {
     openSidebar('sidebar', true);
     }}>
-        <i class="fas fa-bars" />
+    <i class="fas fa-bars" />
     </button>
     <!-- logo -->
     <a href="/" use:link class="nav-logo">
         <img src="/assets/images/logo.png" class="logo" alt="razors logo" />
     </a>
     <!-- cart button -->
-    <button>cart</button>
-    <!-- <CartButton /> -->
+    <!-- <button>cart</button> -->
+    <CartButton />
     </div>
 </nav>
