@@ -10,18 +10,18 @@
 </script>
 
 <div class="cart-overlay" transition:blur>
-<div class="cart-container" transition:fly={{x:100}}>
-<div class="cart" transition:fade={{delay:400}}>
-    <!-- cart header -->
-    <div class="cart-header">
-    <button
-    class="btn-close"
-    on:click={() => {
-    globalStore.toggleItem('cart', false);
-    }}>
-    <i class="fas fa-window-close" />
-</button>
-<h2 class="cart-title">your cart</h2>
+    <div class="cart-container" transition:fly={{x:100}}>
+        <div class="cart" transition:fade={{delay:400}}>
+        <!-- cart header -->
+        <div class="cart-header">
+            <button
+            class="btn-close"
+            on:click={() => {
+            globalStore.toggleItem('cart', false);
+            }}>
+            <i class="fas fa-window-close" />
+        </button>
+    <h2 class="cart-title">your cart</h2>
 <span />
 </div>
     <!-- end cart header -->
