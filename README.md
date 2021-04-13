@@ -16,7 +16,7 @@ Svelte / Svelte Router /
 <hr>
 
 ### Additional Styling Framework
-
+FontAwesome
 <hr>
 
 ### CodePen Resources
