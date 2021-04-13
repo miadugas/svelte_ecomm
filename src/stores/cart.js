@@ -10,6 +10,7 @@ let total = $cart.reduce((acc, curr) => {
     }, 0)
     return total.toFixed(2);
 });
+
 // local functions
 const remove = (id,items) => {
     return items.filter(item => item.id !==id);
@@ -36,11 +37,13 @@ export const removeItem = id =>{
         return remove(id,storeValue);
     });
 };
+
 export const increaseAmount = id => {
     cart.update(storeValue => {
     return toggleAmount(id, storeValue, "inc");
     });
 };
+
 export const decreaseAmount = (id,amount) => {
     cart.update(storeValue => {
     // let item = storeValue.find(item => item.id === id);
