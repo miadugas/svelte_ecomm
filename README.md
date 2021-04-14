@@ -11,7 +11,7 @@ SvelteJS single page app
 
 
 ## Technology Used
-Svelte / Svelte Router / 
+Svelte / Svelte Router / Local Storage for persistent data /
 
 <hr>
 
