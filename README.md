@@ -1,6 +1,5 @@
 # The Black Mirror Oddities 
-## Custom E-comm Store
-## Svelte E-Commerce Store
+## SvelteJS Custom E-Commerce Store
 <hr>
 
 ## Description
