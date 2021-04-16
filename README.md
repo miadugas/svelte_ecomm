@@ -1,22 +1,26 @@
 # The Black Mirror Oddities 
-## SvelteJS Custom E-Commerce Store
+### SvelteJS Custom E-Commerce Store
+
 <hr>
 
 ## Description
 SvelteJS single page app
 
+SveleJS Frontend - npm run dev
+Strapi server Backend - npm run develop
 <hr>
 
 <!-- ![Main View](https://github.com/miadugas/color-tuner/blob/main/color-tuner.png) -->
 
 
 ## Technology Used
-Svelte / Svelte Router / Local Storage for persistent data /
+Svelte / Svelte Router / Local Storage for persistent data / Strapi - Headess CMS / 
 
 <hr>
 
 ### Additional Styling Framework
 FontAwesome
+
 <hr>
 
 ### CodePen Resources
