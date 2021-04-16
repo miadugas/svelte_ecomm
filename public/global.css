@@ -735,3 +735,28 @@ Checkout
 .checkout-form button {
   margin-top: 1rem;
 }
+
+/* 
+====== 
+About
+======
+*/
+.about-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.about-story {
+  font-size: larger;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.about-p {
+  text-align:center;
+  font-family: sans-serif;
+  margin-bottom: 1.25rem;
+  letter-spacing: var(--mainSpacing);
+}
