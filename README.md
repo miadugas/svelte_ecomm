@@ -1,10 +1,10 @@
 # The Black Mirror Oddities 
-### SvelteJS Custom E-Commerce Store
+### SvelteJS Custom E-Comm Store
 
 <hr>
 
 ## Description
-SvelteJS single page app
+SvelteJS single page e-comm app. User registers in order to login to  purchase products.
 
 SveleJS Frontend - npm run dev
 Strapi server Backend - npm run develop
@@ -17,8 +17,8 @@ Svelte / Svelte Router / Local Storage for persistent data / Strapi - Headess CM
 
 <hr>
 
-### Additional Styling Framework
-FontAwesome
+### Additional Styling & Non-Technical Frameworks
+FontAwesome, Styled components,
 
 <hr>
 

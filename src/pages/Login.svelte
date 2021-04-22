@@ -1,4 +1,7 @@
 <script>
+import loginUser from "../strapi/loginUser";
+import registerUser from "../strapi/registerUser";
+
     let email = "";
     let password = "";
     let username = "default username";
@@ -9,25 +12,47 @@
 
 // toggle member
     function toggleMember() {
-    // isMember = !isMember;
-   // if (!isMember) {
-    // username = "";
-    //} else {
-      //username = "default username";
-    //}
+        isMember = !isMember;
+        if (!isMember) {
+            username = "";
+        } else {
+            username = "default username";
+        }
     }
 
 // handle submit
-    async function handleSubmit() {
+async function handleSubmit() {
 // add alert
    // globalStore.toggleItem("alert", true, "loading data... please wait!");
-    // let user;
-    // if (isMember) {
-    //     user = await loginUser({ email, password });
-    // } else {
-    //     user = await registerUser({ email, password, username });
+    let user;
+    if (isMember) {
+        user = loginUser({email, password});
+        //user = await loginUser({ email, password });
+    } else {
+        user = await registerUser({ email, password, username });
     }
-
+    // console.log(user);
+    if (user) {
+//       navigate("/products");
+//       globalStore.toggleItem(
+//         "alert",
+//         true,
+//         "welcome to shopping madness my friend!"
+//       );
+//       // add alert
+//       return;
+//     }
+//     // add alert
+//     globalStore.toggleItem(
+//       "alert",
+//       true,
+//       "there was an error! please try again",
+//       true
+//     );
+} else {
+    
+}
+}
 </script>
 
 
