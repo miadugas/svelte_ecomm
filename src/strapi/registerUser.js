@@ -1,6 +1,6 @@
 import axios from "axios";
 import url from "./URL";
-// import setupUser from "./setupUser";
+import setupUser from "./setupUser";
 
 async function registerUser({ email, password, username }) {
 // console.log("register");
@@ -12,7 +12,7 @@ async function registerUser({ email, password, username }) {
         })
         .catch(error => console.log(error));
         if (response) {
-        // setupUser(response);
+        setupUser(response);
         }
 
     return response;

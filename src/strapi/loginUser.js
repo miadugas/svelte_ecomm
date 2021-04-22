@@ -1,6 +1,6 @@
 import axios from "axios";
 import url from "./URL";
-// import setupUser from "./setupUser";
+import setupUser from "./setupUser";
 
 async function loginUser({ email, password }) {
     console.log("login");
@@ -12,7 +12,7 @@ async function loginUser({ email, password }) {
     .catch(error => console.log(error));
 
         if (response) {
-    // setupUser(response);
+        setupUser(response);
         }
 
         return response;
