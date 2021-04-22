@@ -3,7 +3,7 @@
 Fonts
 ======
 */
-/* @import url("https://fonts.googleapis.com/css?family=Catamaran:300,400|Kaushan+Script&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Catamaran:300,400|Kaushan+Script&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One:300,400&family=Roboto&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Open+Sans&display=swap');
 /* 
@@ -14,7 +14,7 @@ Variables
 :root {
   --primaryColor: #9e3aa3;
   --primaryDarkColor: #4e1d51;
-  --primaryFont: "New Tegomin", serif;
+  --primaryFont: "Catamaran", sans-serif;
   --slantedFont: 'Open Sans', sans-serif;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;

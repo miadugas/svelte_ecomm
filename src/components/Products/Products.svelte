@@ -3,7 +3,7 @@ export let title = "";
 // import { title } from "node:process";
 // import { onMount, onDestroy } from "svelte";
 // import { each } from "svelte/internal";
-    import products from "../../stores/defaultProducts";
+    import products from "../../stores/products";
     import Product from "./Product.svelte";
     import Loading from "../Loading.svelte";
 
