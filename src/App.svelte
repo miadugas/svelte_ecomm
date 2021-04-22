@@ -13,7 +13,8 @@
 	import Navbar from "./components/Navbar/Navbar.svelte";
 	import Sidebar from "./components/Navbar/Sidebar.svelte";
 	import Cart from "./components/Cart/Cart.svelte";
-	import Alert from "./components/Alert.svelte"
+	import Alert from "./components/Alert.svelte";
+	import Footer from "./components/Navbar/Footer.svelte";
 	// global store
 	import globalStore from "./stores/globalStore";
 </script>
@@ -32,6 +33,8 @@
 	<Route path="/" component={Home} />
 	<Route path="/about" component={About} />
 	<Route path="/login" component={Login} />
+	<Route path="/checkout" component={Checkout} />
 	<Route path="/products" component={Products} />
 	<Route path="/products/:id" component={ProductTemplate} />
 </Router>
+<Footer />
