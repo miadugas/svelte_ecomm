@@ -4,7 +4,8 @@
 <hr>
 
 ## Description
-Using SvelteJS for my component-based JavaScript framework for web application development I've used SvelteJS to build this single page e-comm app. User registers in order to login to purchase products.
+Using SvelteJS for my component-based JavaScript framework for web application development I've used SvelteJS to build this single page e-comm app. User registers in order to login to purchase products. 
+The client had a bad experiance with Shopify so I was commissioned to build what equates out to her own fully functional online e-comm store with no monthly Shopify fees and Stripe CC processing for max profit margin.
 
 SveleJS Frontend - npm run dev
 Strapi server Backend - npm run develop
