@@ -1,6 +1,6 @@
 <script>
     
-    import SmallNavBar from "./SmallNavbar.svelte";
+    import SmallNavbar from "./SmallNavbar.svelte";
     import BigNavbar from "./BigNavbar.svelte";
     import globalStore from "../../stores/globalStore";
     
@@ -15,5 +15,5 @@
     {#if screenWidth > 992}
     <BigNavbar />
     {:else}
-    <SmallNavBar />
+    <SmallNavbar />
     {/if} 
