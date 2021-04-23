@@ -10,7 +10,7 @@ SveleJS Frontend - npm run dev
 Strapi server Backend - npm run develop
 <hr>
 
-<!-- ![Main View](https://github.com/miadugas/color-tuner/blob/main/color-tuner.png) -->
+ ![Main View](https://github.com/miadugas/svelte_ecomm/blob/main/black_mirror.png)
 
 ## Technology Used
 Svelte / Svelte Router / Local Storage for persistent data / Strapi - Headess CMS / Stripe Credit Card processing / Heroku PostgresQL db
@@ -19,12 +19,6 @@ Svelte / Svelte Router / Local Storage for persistent data / Strapi - Headess CM
 
 ### Additional Styling & Non-Technical Frameworks
 FontAwesome, Styled components,
-
-<hr>
-
-### CodePen Resources
-
-
 
 <hr>
 
