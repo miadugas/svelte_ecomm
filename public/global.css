@@ -760,3 +760,14 @@ About
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
 }
+
+.foot-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.copyright-text {
+  font-size: smaller;
+  color: #afafaf;
+}

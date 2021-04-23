@@ -1,4 +1,3 @@
-<h2>cart items</h2>
 <script>
   export let id;
   export let image;

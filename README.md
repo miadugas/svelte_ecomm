@@ -13,7 +13,7 @@ Strapi server Backend - npm run develop
 <!-- ![Main View](https://github.com/miadugas/color-tuner/blob/main/color-tuner.png) -->
 
 ## Technology Used
-Svelte / Svelte Router / Local Storage for persistent data / Strapi - Headess CMS / 
+Svelte / Svelte Router / Local Storage for persistent data / Strapi - Headess CMS / Stripe Credit Card processing / Heroku PostgresQL db
 
 <hr>
 

@@ -1,5 +1,16 @@
 import { writable,derived } from "svelte/store";
 // import localCart from "../localCart";
+
+// localStorage
+function getStorageCart() {
+    return localStorage.getItem("cart")
+    ? JSON.parse(localStorage.getItem("cart"))
+    : [];
+}
+export function setStorageCart(cartValues) {
+    localStorage.setItem("cart", JSON.stringify(cartValues));
+}
+
 // cart
 const cart = writable(getStorageCart());
 
@@ -8,12 +19,12 @@ export const cartTotal = derived(cart,($cart) =>{
 let total = $cart.reduce((acc, curr) => {
     return (acc += (curr.amount * curr.price));
     }, 0)
-    return total.toFixed(2);
+    return parseFloat(total.toFixed(2));
 });
 
 // local functions
 const remove = (id,items) => {
-    return items.filter(item => item.id !==id);
+    return items.filter(item => item.id !== id);
 };
 
 const toggleAmount = (id, items, action) => {
@@ -21,8 +32,7 @@ const toggleAmount = (id, items, action) => {
         let newAmount;
     if (action === "inc") {
         newAmount = item.amount + 1;
-    } 
-    else if (action === "dec") {
+    } else if (action === "dec") {
         newAmount = item.amount - 1;
     } else {
         newAmount = item.amount;
@@ -60,28 +70,17 @@ export const decreaseAmount = (id,amount) => {
 export const addToCart = product => {
     cart.update(storeValue => {
         const {id,image,title,price} = product;
-        let item = storeValue.find(item => item.id ===id);
+        let item = storeValue.find(item => item.id === id);
         let cart;
         if(item) {
-            cart = toggleAmount(id, storeValue, 'inc')  
+            cart = toggleAmount(id, storeValue, "inc");  
         } else {
-            let newItem = {id,image,title,price,amount:1}
-            cart = [...storeValue,newItem]
+            let newItem = { id, image, title, price, amount: 1 };
+            cart = [...storeValue,newItem];
         }
         return cart;
-    })
+    });
 };
 
-// local storage
-function getStorageCart(){
-    return localStorage.getItem('cart')?JSON.parse
-    (localStorage.getItem('cart'))
-    : [];
-}
-
-export function setStorageCart(cartValues){
-    localStorage.setItem('cart',JSON.stringify
-    (cartValues));
-}
 
 export default cart;
