@@ -23,6 +23,7 @@
     <!-- <CartButton />
     </div>
 </nav> -->
+
 <script>
     import CartButton from "../Cart/CartButton.svelte";
     import { link } from "svelte-routing";
