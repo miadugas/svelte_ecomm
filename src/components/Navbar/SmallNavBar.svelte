@@ -3,7 +3,7 @@
     import { link } from "svelte-routing";
     import globalStore from "../../stores/globalStore";
     let openSidebar = globalStore.toggleItem;
-    </script>
+</script>
 
     <nav class="navbar">
         <div class="nav-center">
@@ -17,7 +17,7 @@
     </button>
     <!-- logo -->
     <a href="/" use:link class="nav-logo">
-        <img src="/assets/images/logo.png" class="logo" alt="razors logo" />
+        <img src="/assets/images/logo.png" class="logo" alt="logo" />
     </a>
     <!-- cart button -->
     <CartButton />
