@@ -1,6 +1,6 @@
 import { writable, derived } from "svelte/store";
 import url from "../strapi/URL";
-import localProducts from "../localProducts";
+//import localProducts from "../localProducts";
 import getProducts from "../strapi/getProducts";
 
 const store = writable([], () => {

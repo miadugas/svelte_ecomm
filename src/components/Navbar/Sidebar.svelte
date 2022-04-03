@@ -22,7 +22,7 @@
     <img
         src="/assets/images/logo.png"
         class="logo sidebar-logo"
-        alt="razors logo" />
+        alt="oddities logo" />
     <!-- links -->
     <ul class="sidebar-links">
         {#each links as sideLink}
